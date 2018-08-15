@@ -1,0 +1,75 @@
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+	<style>
+		.colFondo {
+			background: rgba(0,0,0,0.4);
+			color: rgba(255,255,255,0.7);
+			border-style: inset;
+			border: 1px solid yellow;
+		}
+		
+		.fondo {
+			background: pink;
+		}
+	</style>
+	<div class="container fondo">
+		<div class="row">
+			<div class="col-xs-6 colFondo">
+				ancho 6
+				<br /><br /><br />
+				
+			</div>
+			<div class="col-xs-6 colFondo">
+				ancho 6
+				<table class="table table-striped" style="border: 1px solid red"">
+					<tr>
+						<td>ejemplo</td>
+						<td>ejemplo</td>
+					</tr>
+					<tr>
+						<td>ejemplo</td>
+						<td>ejemplo</td>
+					</tr>
+					<tr>
+						<td>ejemplo</td>
+						<td>ejemplo</td>
+					</tr>
+					<tr>
+						<td>ejemplo</td>
+						<td>ejemplo</td>
+					</tr>
+					<tr>
+						<td>ejemplo</td>
+						<td>ejemplo</td>
+					</tr>
+				</table>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-1 colFondo">
+				ancho 1
+			</div>
+			<div class="col-xs-2 colFondo">
+				ancho 2
+			</div>
+			<div class="col-xs-3 colFondo">
+				ancho 3
+				<button class="btn">Botón normal</button>
+				<button class="btn btn-default">Botón default</button>
+				<button class="btn btn-primary">Botón primary</button>
+				<button class="btn btn-success">Botón success</button>
+				<button class="btn btn-info">Botón info</button>
+				<button class="btn btn-warning">Botón warning</button>
+				<button class="btn btn-danger">Botón danger</button>
+			</div>
+			<div class="col-xs-4 colFondo">
+				ancho 4
+				<input class="form-control" />
+			</div>
+		</div>
+	</div>
+</body>

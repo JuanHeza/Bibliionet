@@ -1,0 +1,70 @@
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tarea #9</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+	<body><center>
+	<h1>Bienvenido</h1>
+	<div class="container">
+		<form class="form">
+			<h2>Por favor rellena el siguiente formulario</h2> 
+			<label for="USUARIO" class="sr-only">USUARIO</label>
+				<input type="usr" id="USUARIO" class="form-control" placeholder="USUARIO" required autofocus>
+			<label for="MATRICULA" class="sr-only">MATRICULA</label>
+				<input type="text" id="MATRICULA" class="form-control" placeholder="MATRICULA" required>
+			<label for="CONTRASEÑA" class="sr-only">CONTRASEÑA</label>
+				<input type="password" id="CONTRASEÑA" class="form-control" placeholder="CONTRASEÑA" required>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me"> Recuerdame
+				</label>
+			</div>
+			<button class="btn btn-lg btn-success btn-block" type="submit">ENTRAR</button>
+		 </form>
+    </div>
+	<br>
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="100" 
+			aria-valuemin="0" aria-valuemax="100" style="width:100%">
+		DATOS
+		</div>
+	</div>
+	<div class="container">
+		<table class="table table-condensed table-hover">
+		<thead>
+			<tr>
+				<th>Matricula</th>
+				<th>Nombre</th>
+				<th>Carrera</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="info">
+				<td>1719295</td>
+				<td>Juan Hernandez</td>
+				<td>ITS</td>
+			</tr>
+			<tr class="danger">
+				<td>1719295</td>
+				<td>Enrique Zavala</td>
+				<td>ITS</td>
+			</tr>
+			<tr class="info">
+				<td>1719295</td>
+				<td>Juan Enrique</td>
+				<td>ITS</td>
+			</tr>
+			<tr class="danger">
+				<td>1719295</td>
+				<td>Juan Enrique Hernandez Zavala</td>
+				<td>ITS</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+	
+	<button type="button" class="btn btn-danger disabled">FIN</button>
+	
+	</Body>
+</html>

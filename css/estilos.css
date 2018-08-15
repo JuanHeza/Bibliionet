@@ -1,0 +1,68 @@
+div#sidebar{
+   position:absolute;
+   height:70%;
+   width:17%;
+   left:10px;
+}
+
+#Cuerpo{
+	background-color:rgba(191,191,191,0.8);
+	width: 63%;
+	height: auto%;
+	left: 18.5%;
+	position: absolute;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 16px;
+
+}
+div#FecHora{
+   position:absolute;
+   height:70%;
+   width:17%;
+   right:10px;
+}
+
+#content{
+    background-color: transparent;
+    padding: 10px;
+	overflow: auto;
+}
+
+#content:hover, a:focus {
+    color: #3a79d8;
+    text-decoration: none;
+}
+
+#content.nav > li > a,
+#content.nav > li > a:link {
+    background-color: #ccc;
+    color: #648a96;
+}
+
+#content.nav > li > a:hover,
+#content.nav > li > a:focus {
+    background-color: #373737;
+}
+
+#content.nav-pills > li.active > a,
+#content.nav-pills > li.active > a:hover,
+#content.nav-pills > li.active > a:focus {
+    color: #ccc;
+    background-color: #2eb82e;
+}
+
+body {
+	background-image: url("header.jpg");
+	background-repeat: repeat-y;
+	font-family: 'open sans', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.jumbotron-ar {
+	background-image: url("BFBC2.png");
+	width: 70%;
+	position:center;
+	padding: 0;
+}
